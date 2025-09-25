@@ -1,0 +1,87 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+
+@theme {
+  --font-primary: "Playfair Display", serif;
+  --font-body: "Work Sans", sans-serif;
+
+  --container-padding: 1rem;
+  --container-padding-lg: 3rem;
+
+  --breakpoint-sm: 640px;
+  --breakpoint-md: 768px;
+  --breakpoint-lg: 1024px;
+  --breakpoint-xl: 1280px;
+
+  --color-primary: #050402;
+  --color-secondary: #1c1d24;
+  --color-tertiary: #131419;
+  --color-accent: #ac6b34;
+  --color-accent-hover: #925a2b;
+  --color-paragraph: #878e99;
+
+  --content-about: url("/assets/outline-text/about.svg");
+  --content-portfolio: url("/assets/outline-text/portfolio.svg");
+  --content-services: url("/assets/outline-text/services.svg");
+  --content-testimonials: url("/assets/outline-text/testimonials.svg");
+  --content-contact: url("/assets/outline-text/contact.svg");
+}
+
+@layer base {
+  body {
+    @apply font-body text-paragraph leading-6 bg-gray-200;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply text-white font-primary;
+  }
+
+  .section {
+    @apply py-12 lg:py-32;
+  }
+
+  .section-title {
+    @apply text-3xl lg:text-4xl font-medium lg:font-extrabold mb-5;
+  }
+
+  .subtitle {
+    @apply text-base text-paragraph mb-16 lg:mb-24 max-w-[520px];
+  }
+
+  .btn {
+    @apply py-4 px-7 font-medium text-white flex items-center justify-center rounded-sm hover:bg-accent-hover transition-all;
+  }
+
+  .btn-lg {
+    @apply h-[54px];
+  }
+
+  .btn-md {
+    @apply h-[48px];
+  }
+
+  .input {
+    @apply bg-secondary text-paragraph h-[60px] outline-none pl-6 w-full font-body text-[15px] rounded-sm focus:outline focus:outline-accent;
+  }
+
+  .textarea {
+    @apply bg-secondary resize-none w-full outline-none p-6 rounded-sm h-[200px] focus:outline focus:outline-accent;
+  }
+
+  .active {
+    @apply text-accent;
+  }
+}
+
+.swiper-pagination {
+  margin-top: 20rem;
+}
+
+.swiper-pagination-bullet {
+  background-color: #ac6b34;
+}
