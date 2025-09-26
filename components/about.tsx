@@ -4,18 +4,20 @@ import aboutImg from "@/public/assets/about.webp";
 
 export const About = () => {
   return (
-    <section className="section bg-secondary" id="about">
+    <section className="section bg-secondary " id="about">
       <div className="container grid grid-cols-1 xl:grid-cols-2 gap-24">
         <Image
           src={aboutImg}
           alt="About"
-          className="h-full w-141.5 md:mx-auto lg:mx-0 rounded-2xl object-cover"
+          className="h-full w-141.5 md:mx-auto xl:mx-0 rounded-2xl object-cover"
         />
-        <div className="flex flex-col items-center lg:items-start text-center lg:text-left">
+        <div className="flex flex-col items-center xl:items-start text-center xl:text-left">
           <div className="flex flex-col">
-            <h2 className="text-3xl lg:text-4xl font-medium lg:font-extrabold mb-3 before:content-about relative before:absolute before:opacity-40 before:-top-[2rem] before:hidden before:lg:block">
-              Jane Wilson
-            </h2>
+            <div className="bg-about bg-center xl:bg-top-right bg-contain bg-no-repeat">
+              <h2 className="text-3xl lg:text-4xl font-medium lg:font-extrabold mb-3">
+                Jane Wilson
+              </h2>
+            </div>
             <p className="mb-4 text-accent">Freelance Web Developer</p>
             <hr className="mb-4 opacity-5" />
             <p className="mb-4">
