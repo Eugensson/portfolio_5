@@ -54,7 +54,7 @@
   }
 
   .btn {
-    @apply py-4 px-7 font-medium text-white flex items-center justify-center rounded-sm hover:bg-accent-hover transition-all;
+    @apply py-4 px-7 font-medium text-white flex items-center justify-center rounded-sm bg-accent hover:bg-accent-hover transition-all cursor-pointer;
   }
 
   .btn-lg {
@@ -76,6 +76,10 @@
   .active {
     @apply text-accent;
   }
+}
+
+.container {
+  @apply w-full max-w-320 mx-auto px-4 lg:px-0;
 }
 
 .swiper-pagination {

@@ -37,13 +37,13 @@ import TestiImage1 from "@/public/assets/testimonials/testimonial-1.webp";
 import TestiImage2 from "@/public/assets/testimonials/testimonial-2.webp";
 import TestiImage3 from "@/public/assets/testimonials/testimonial-3.webp";
 
-export const navList = [
-  { name: "home", href: "home" },
-  { name: "about", href: "about" },
-  { name: "portfolio", href: "portfolio" },
-  { name: "services", href: "services" },
-  { name: "testimonials", href: "testimonials" },
-  { name: "contact", href: "contact" },
+export const navLinks = [
+  { name: "home", path: "home" },
+  { name: "about", path: "about" },
+  { name: "portfolio", path: "portfolio" },
+  { name: "services", path: "services" },
+  { name: "testimonials", path: "testimonials" },
+  { name: "contact", path: "contact" },
 ];
 
 export const socialList = [
