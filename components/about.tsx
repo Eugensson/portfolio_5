@@ -1,0 +1,40 @@
+import Image from "next/image";
+
+import aboutImg from "@/public/assets/about.webp";
+
+export const About = () => {
+  return (
+    <section className="section bg-secondary" id="about">
+      <div className="container grid grid-cols-1 xl:grid-cols-2 gap-24">
+        <Image
+          src={aboutImg}
+          alt="About"
+          className="h-full w-141.5 md:mx-auto lg:mx-0 rounded-2xl object-cover"
+        />
+        <div className="flex flex-col items-center lg:items-start text-center lg:text-left">
+          <div className="flex flex-col">
+            <h2 className="text-3xl lg:text-4xl font-medium lg:font-extrabold mb-3 before:content-about relative before:absolute before:opacity-40 before:-top-[2rem] before:hidden before:lg:block">
+              Jane Wilson
+            </h2>
+            <p className="mb-4 text-accent">Freelance Web Developer</p>
+            <hr className="mb-4 opacity-5" />
+            <p className="mb-4">
+              Jane Wilson is a freelance web developer creating responsive,
+              modern, and user-friendly websites. Skilled in JavaScript, React,
+              and Next.js, she delivers high-quality solutions tailored to
+              clients.
+            </p>
+            <p className="mb-8">
+              Passionate about clean code, performance optimization, and
+              seamless user experiences, Jane helps businesses and individuals
+              build websites that drive engagement and growth.
+            </p>
+          </div>
+          <button type="button" className="btn btn-md">
+            Contact me
+          </button>
+        </div>
+      </div>
+    </section>
+  );
+};
