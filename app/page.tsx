@@ -3,6 +3,7 @@ import { About } from "@/components/about";
 import { Header } from "@/components/header";
 import { Brands } from "@/components/brands";
 import { Skills } from "@/components/skills";
+import { Services } from "@/components/services";
 import { Portfolio } from "@/components/portfolio";
 
 const Home = () => {
@@ -14,6 +15,7 @@ const Home = () => {
       <About />
       <Skills />
       <Portfolio />
+      <Services />
       <div className="h-1000" />
     </main>
   );
