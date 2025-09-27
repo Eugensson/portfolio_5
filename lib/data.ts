@@ -147,6 +147,7 @@ export const serviceList = [
 
 export const testimonialList = [
   {
+    id: "1",
     authorImg: TestiImage1,
     authorText:
       "Working with Jane was seamless from start to finish. Her web design expertise gave our platform a modern and engaging look while improving navigation and enhancing the overall user experience for our global audience.",
@@ -154,13 +155,15 @@ export const testimonialList = [
     authorPosition: "Head of Design, Google",
   },
   {
+    id: "2",
     authorImg: TestiImage2,
     authorText:
       "Jane’s development skills transformed our outdated website into a fast, scalable, and SEO-friendly solution. Her attention to detail and technical knowledge helped increase our visibility and attract new customers online effectively.",
-    authorName: "Michael Thompson",
+    authorName: "VictoriaThompson",
     authorPosition: "Project Manager, Amazon",
   },
   {
+    id: "3",
     authorImg: TestiImage3,
     authorText:
       "Our brand identity has never been stronger. Jane delivered creative visuals, consistent UI/UX, and branding materials that reflect our values. Her approach strengthened our digital presence and built trust with our customer base.",

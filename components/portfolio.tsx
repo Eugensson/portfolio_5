@@ -8,7 +8,7 @@ export const Portfolio = () => {
           <div className="w-full mb-8 lg:bg-portfolio lg:bg-center lg:bg-contain lg:bg-no-repeat">
             <h2 className="section-title">My latest work</h2>
           </div>
-          <p className="subtitle w-full max-w-200">
+          <p className="subtitle w-full max-w-200 text-sm md:text-base">
             Explore a selection of my latest web development projects, featuring
             modern, responsive, and user-friendly designs. Each portfolio item
             showcases skills in JavaScript, React, and Next.js, with a focus on

@@ -8,7 +8,7 @@ export const Services = () => {
           <div className="w-full mb-8 lg:bg-services lg:bg-center lg:bg-contain lg:bg-no-repeat">
             <h2 className="section-title">Services I Provide</h2>
           </div>
-          <p className="subtitle w-full max-w-200">
+          <p className="subtitle w-full max-w-200 text-sm md:text-base">
             I provide modern and responsive web development services, including
             website design, front-end development, and optimization. With
             expertise in JavaScript, React, and Next.js, I build fast,
@@ -23,7 +23,7 @@ export const Services = () => {
                 <Icon size={28} />
               </div>
               <h4 className="mb-2 text-xl font-medium">{name}</h4>
-              <p>{description}</p>
+              <p className="text-sm md:text-base">{description}</p>
             </li>
           ))}
         </ul>

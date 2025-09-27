@@ -20,13 +20,13 @@ export const About = () => {
             </div>
             <p className="mb-4 text-accent">Freelance Web Developer</p>
             <hr className="mb-4 opacity-5" />
-            <p className="mb-4">
+            <p className="mb-4 text-sm md:text-base">
               Jane Wilson is a freelance web developer creating responsive,
               modern, and user-friendly websites. Skilled in JavaScript, React,
               and Next.js, she delivers high-quality solutions tailored to
               clients.
             </p>
-            <p className="mb-8">
+            <p className="mb-8 text-sm md:text-base">
               Passionate about clean code, performance optimization, and
               seamless user experiences, Jane helps businesses and individuals
               build websites that drive engagement and growth.

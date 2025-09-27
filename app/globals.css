@@ -82,10 +82,10 @@
   @apply w-full max-w-320 mx-auto px-4 xl:px-0;
 }
 
-.swiper-pagination {
+.mySwiper .swiper-pagination {
   margin-top: 20rem;
 }
 
-.swiper-pagination-bullet {
+.mySwiper .swiper-pagination-bullet {
   background-color: #ac6b34;
 }
