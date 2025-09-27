@@ -5,7 +5,7 @@ import { brandList } from "@/lib/data";
 
 export const Brands = () => {
   return (
-    <section className="min-h-40 py-10 flex items-center bg-tertiary">
+    <section className="min-h-40 py-12 flex items-center bg-tertiary">
       <ul className="container flex flex-wrap items-center justify-evenly md:justify-between">
         {brandList.map(({ img, label, href }) => (
           <li key={label} className="flex items-center">

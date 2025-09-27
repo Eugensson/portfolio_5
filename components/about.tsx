@@ -13,7 +13,7 @@ export const About = () => {
         />
         <div className="flex flex-col items-center xl:items-start text-center xl:text-left">
           <div className="flex flex-col">
-            <div className="bg-about bg-center xl:bg-top-right bg-contain bg-no-repeat">
+            <div className="lg:bg-about lg:bg-left lg:bg-contain lg:bg-no-repeat">
               <h2 className="text-3xl lg:text-4xl font-medium lg:font-extrabold mb-3">
                 Jane Wilson
               </h2>
