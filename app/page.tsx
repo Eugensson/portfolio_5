@@ -8,6 +8,7 @@ import { Contact } from "@/components/contact";
 import { Services } from "@/components/services";
 import { Portfolio } from "@/components/portfolio";
 import { Testimonials } from "@/components/testimonials";
+import { BackToTopBtn } from "@/components/back-to-top-btn";
 
 const Home = () => {
   return (
@@ -22,6 +23,7 @@ const Home = () => {
       <Testimonials />
       <Contact />
       <Footer />
+      <BackToTopBtn />
     </main>
   );
 };
