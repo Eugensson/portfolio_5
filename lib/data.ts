@@ -174,12 +174,14 @@ export const testimonialList = [
 
 export const contactList = [
   {
+    id: "1",
     icon: FiMail,
     title: "Have a question?",
     subtitle: "I am here to help you.",
     description: "Email me at info@example.com",
   },
   {
+    id: "2",
     icon: FiMapPin,
     title: "Current Location",
     subtitle: "Berlin, Germany",
